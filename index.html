@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>डीलक्स सैलून & महफ़िल-ए-इश्क़ — MEHFIL FM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Yatra+One&family=Outfit:wght@300;400;500;600;700&family=Courier+Prime:wght@400;700&family=Playfair+Display:ital,wght@0,600;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="mode-saloon">
+  <!-- Full-Bleed Background Overlay (Dynamic Saloon vs Love) -->
+  <div class="saloon-bg-overlay" id="bg-overlay"></div>
+
+  <!-- Top Bar: Clock, Mode Switcher, Online Status & Links -->
+  <header class="top-nav-bar font-sans">
+    <div class="nav-left">
+      <span class="live-clock font-mono" id="live-clock">3:38 pm</span>
+    </div>
+
+    <!-- Central Mode Switcher: Saloon Songs vs Love Songs -->
+    <div class="nav-center">
+      <div class="mode-switcher-pill font-sans">
+        <button class="mode-btn active" id="btn-mode-saloon">
+          💈 SALOON SONGS
+        </button>
+        <button class="mode-btn" id="btn-mode-love">
+          💖 LOVE SONGS
+        </button>
+      </div>
+
+      <div class="online-badge font-sans">
+        <span class="online-dot animate-pulse"></span>
+        <span id="online-count">26 online</span>
+      </div>
+    </div>
+
+    <div class="nav-right font-sans">
+      <button id="toggle-archive-drawer" class="btn-drawer-toggle">
+        📜 ARCHIVE (<span id="archive-count">101</span>)
+      </button>
+    </div>
+  </header>
+
+  <!-- Center Hero Showcase with Dynamic Devanagari Typography -->
+  <main class="hero-center-container">
+    <div class="hindi-typography-box">
+      <!-- Dynamic Title -->
+      <h1 class="devanagari-hero-title" id="hero-title">डीलक्स<br>सैलून</h1>
+      <p class="devanagari-hero-sub font-mono" id="hero-subtitle">MEHFIL FM — NOSTALGIC SALOON RADIO</p>
+    </div>
+  </main>
+
+  <!-- Error Banner -->
+  <div id="error-banner" class="error-banner hidden">
+    <div class="error-content">
+      <span class="error-icon">⚠️</span>
+      <p id="error-message">Unable to load recording.</p>
+      <button id="close-error-btn" class="close-error-btn">✕</button>
+    </div>
+  </div>
+
+  <!-- Floating Glassmorphism Player Bar Capsule (Shared Custom Player for Both Modes) -->
+  <section class="floating-player-wrapper" id="local-player-wrapper">
+    <div class="glass-player-capsule" id="glass-capsule">
+      <!-- Spinning Vinyl Thumbnail Art -->
+      <div class="capsule-art-col">
+        <div class="capsule-vinyl-disc" id="capsule-vinyl">
+          <div class="capsule-vinyl-grooves"></div>
+          <div class="capsule-label-center">
+            <span class="c-v-title" id="capsule-art-text">MEHFIL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Metadata & Interactive Timeline -->
+      <div class="capsule-info-col font-sans">
+        <div class="capsule-track-details">
+          <h3 class="capsule-song-title" id="player-title">Woh Meri Neend Mera Chain</h3>
+          <p class="capsule-artist-name" id="player-artist">Sadhana Sargam</p>
+        </div>
+
+        <!-- Timeline & Clickable Instant Seek Progress Bar -->
+        <div class="capsule-timeline-box">
+          <div class="clickable-progress-track" id="progress-track" title="Click anywhere to jump to that timestamp!">
+            <div class="progress-fill-bar" id="progress-fill"></div>
+            <input type="range" id="progress-bar" min="0" max="100" value="0" step="0.1" aria-label="Seek track duration">
+          </div>
+
+          <div class="timeline-labels font-mono">
+            <span id="current-time">0:00</span>
+            <span class="opacity-40">/</span>
+            <span id="duration">4:56</span>
+          </div>
+        </div>
+
+        <!-- Quick Jump Timestamp Markers (0:30, 1:10, 2:15, 3:30) -->
+        <div class="quick-timestamp-jump font-mono">
+          <span class="jump-label">JUMP TO:</span>
+          <button class="jump-btn" data-time="30">0:30</button>
+          <button class="jump-btn" data-time="70">1:10</button>
+          <button class="jump-btn" data-time="135">2:15</button>
+          <button class="jump-btn" data-time="210">3:30</button>
+        </div>
+      </div>
+
+      <!-- Controls: Previous, Play/Pause, Next -->
+      <div class="capsule-controls-col">
+        <button class="capsule-ctrl-btn" id="prev-btn" title="Previous Track (Left Arrow)">
+          <span>⏮</span>
+        </button>
+        <button class="capsule-play-btn" id="play-btn" title="Play / Pause (Spacebar)">
+          <span id="play-icon">▶</span>
+        </button>
+        <button class="capsule-ctrl-btn" id="next-btn" title="Next Track (Right Arrow)">
+          <span>⏭</span>
+        </button>
+        <button class="capsule-ctrl-btn" id="shuffle-btn" title="Toggle Shuffle Mode">
+          <span>🔀</span>
+        </button>
+      </div>
+
+      <!-- HTML5 Audio Element -->
+      <audio id="audio-player" preload="metadata"></audio>
+    </div>
+  </section>
+
+  <!-- Slide-Out Archive Drawer -->
+  <aside id="archive-drawer" class="archive-drawer-container hidden font-sans">
+    <div class="drawer-header">
+      <div class="drawer-title-box">
+        <span class="font-mono section-subtitle" id="drawer-subtitle">101 RECORDINGS</span>
+        <h2 class="font-serif" id="drawer-title">Mehfil FM Vault</h2>
+      </div>
+      <button id="close-drawer-btn" class="close-drawer-btn">✕</button>
+    </div>
+
+    <!-- Category Filters -->
+    <div class="archive-filters font-mono">
+      <button class="filter-tab active" data-category="ALL">ALL</button>
+      <button class="filter-tab" data-category="ROMANTIC">ROMANTIC</button>
+      <button class="filter-tab" data-category="90s">90s</button>
+      <button class="filter-tab" data-category="2000s">2000s</button>
+      <button class="filter-tab" data-category="CLASSICS">CLASSICS</button>
+    </div>
+
+    <!-- Songs List -->
+    <div class="playlist-rows" id="playlist-container">
+      <!-- Rendered by script.js -->
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>

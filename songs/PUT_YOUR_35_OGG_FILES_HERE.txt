@@ -1,0 +1,3 @@
+Put the 35 .ogg files from your old songs folder in THIS folder.
+The supplied script.js is already linked to the 35 filenames visible in your screenshots.
+Exact filenames matter.
