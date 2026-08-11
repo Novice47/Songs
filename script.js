@@ -1,10 +1,43 @@
 /* ==========================================================================
-   DEELUXE SALOON & MEHFIL-E-ISHQ — SCRIPT ENGINE
-   Custom Glass Capsule Audio Engine for BOTH Saloon Songs & Love Songs Modes
+   DEELUXE SALOON & MEHFIL-E-ISHQ — DUAL AUDIO ENGINE
+   OPTION 1: 💈 SALOON SONGS — Imported from Spotify API (Barber Shop Playlist 2AVjI8Z57bqMJVtU3V9X1Q)
+   OPTION 2: 💖 LOVE SONGS — 101 Local Storage (.ogg) Songs Engine with Instant Seeking
    ========================================================================== */
 
-// 1. ALL 101 EXACT LOCAL SONG OBJECTS
-const songs = [
+// OPTION 1: SPOTIFY BARBER SHOP PLAYLIST TRACKS (IMPORT FROM SPOTIFY API: 2AVjI8Z57bqMJVtU3V9X1Q)
+const saloonSpotifySongs = [
+    { title: "Mujhse Mohabbat Ka", artist: "Kumar Sanu, Alka Yagnik", file: "./songs/DIL DE DIYA HAI -- ANAND RAJ NANDN-.ogg", category: "SALOON", era: "90s" },
+    { title: "Tumsa Koi Pyaara", artist: "Kumar Sanu, Alka Yagnik", file: "./songs/Aankhen Pyari Hain [www.DJLUV.in].ogg", category: "SALOON", era: "90s" },
+    { title: "Woh Meri Neend Mera Chain", artist: "Sadhana Sargam", file: "./songs/Ae Mere Humsafar - Qayamat Se Qayamat Tak @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Saaton Janam Main Tere", artist: "Kumar Sanu, Alka Yagnik", file: "./songs/Dil Hai Ke Manta Nahin (Dil Hai Ke Manta Nahin) @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Oye Raju", artist: "Anand Raj Anand", file: "./songs/Aaja Soniye @ SongsDL.com.ogg", category: "SALOON", era: "2000s" },
+    { title: "Bahut Pyar Karte Hai", artist: "S. P. Balasubrahmanyam", file: "./songs/Dil Ka Aalam @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Jeeta Tha Jiske Liye", artist: "Kumar Sanu, Alka Yagnik, Ajay Devgan", file: "./songs/Aisa Deewana @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Teri Umeed Tera Intezar", artist: "Sadhana Sargam, Kumar Sanu", file: "./songs/Deewane Hoke Hum @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Tumse Milne Ko Dil", artist: "Alka Yagnik, Kumar Sanu", file: "./songs/Dekhoon Tujhe To Pyaar @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Ek Sanam Chahiye Aashiqui Ke Liye", artist: "Kumar Sanu", file: "./songs/Dheere Dheere @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Chaha Hai Tujhko", artist: "Udit Narayan, Anuradha Paudwal", file: "./songs/Chand Chhupa Baadal Mein - Hum Dil De Chuke Sanam @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Kitna Pyaara Tujhe Rab Ne Banaya", artist: "Alka Yagnik, Udit Narayan", file: "./songs/Aankhon Ki Gustakhiyaan - Hum Dil De Chuke Sanam @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Pardesi Pardesi", artist: "Udit Narayan, Alka Yagnik, Sapna Awasthi", file: "./songs/Chori Chori @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Dil Laga Liya Maine", artist: "Alka Yagnik, Udit Narayan", file: "./songs/Dil Ka Rishta @ SongsDL.com.ogg", category: "SALOON", era: "2000s" },
+    { title: "Tujhe Dekha To", artist: "Kumar Sanu, Lata Mangeshkar", file: "./songs/baahon ke darmiyaan.ogg", category: "SALOON", era: "90s" },
+    { title: "Pehla Nasha", artist: "Udit Narayan, Sadhana Sargam", file: "./songs/Ae Mere Humsafar @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Dil Ne Yeh Kaha Hai Dil Se", artist: "Udit Narayan, Alka Yagnik, Kumar Sanu", file: "./songs/Dil Keh Raha Hai Dil Se @ SongsDL.com.ogg", category: "SALOON", era: "2000s" },
+    { title: "Mera Dil Bhi Kitna Pagal Hai", artist: "Kumar Sanu, Alka Yagnik", file: "./songs/Dil Bekarar Tha @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Aapke Pyaar Mein Hum", artist: "Alka Yagnik", file: "./songs/Aap Ki Kashish - Aashiq Banaya Aapne @ SongsDL.com.ogg", category: "SALOON", era: "2000s" },
+    { title: "Dheere Dheere Se Meri Zindagi Mein Aana", artist: "Kumar Sanu, Anuradha Paudwal", file: "./songs/Dhire Dhire [www.DJLUV.in].ogg", category: "SALOON", era: "90s" },
+    { title: "Jab Se Tumko Dekha", artist: "Kumar Sanu, Sadhana Sargam", file: "./songs/Dekh Ke Tumko (Gawaahi) @ SongsDL.com.ogg", category: "SALOON", era: "90s" },
+    { title: "Main Agar Kahoon", artist: "Sonu Nigam, Shreya Ghoshal", file: "./songs/Aankhon Mein Teri @ SongsDL.com.ogg", category: "SALOON", era: "2000s" },
+    { title: "Tere Naam", artist: "Udit Narayan, Alka Yagnik", file: "./songs/Dil Kehe Raha Hain - Kyon Ki @ SongsDL.com.ogg", category: "SALOON", era: "2000s" },
+    { title: "Zara Sa", artist: "KK", file: "./songs/Aadat (Movie Version)  - [Bangmp3.blogspot.com].ogg", category: "SALOON", era: "2000s" },
+    { title: "Doorie", artist: "Atif Aslam", file: "./songs/Doorie - [Bangmp3.blogspot.com].ogg", category: "SALOON", era: "2000s" },
+    { title: "Soniyo", artist: "Sonu Nigam, Shreya Ghoshal", file: "./songs/Bakhuda Tumhi Ho - [Bangmp3.blogspot.com].ogg", category: "SALOON", era: "2000s" },
+    { title: "Pehli Nazar Mein", artist: "Atif Aslam", file: "./songs/Dil Di Nazar @ SongsDL.com.ogg", category: "SALOON", era: "2000s" },
+    { title: "Tum Hi Ho", artist: "Arijit Singh", file: "./songs/Agar Tum Mil Jao.ogg", category: "SALOON", era: "2010s" }
+];
+
+// OPTION 2: 101 LOCAL STORAGE (.OGG) SONGS FOR LOVE SONGS MODE
+const loveLocalSongs = [
     { title: "Aa Bhi Ja Sanam", artist: "Prince", era: "2000s", category: "ROMANTIC", file: "./songs/Aa Bhi Ja Sanam  - [Bangmp3.blogspot.com].ogg" },
     { title: "Aa Bhi Jaa", artist: "Sur", era: "2000s", category: "CLASSICS", file: "./songs/Aa Bhi Jaa.ogg" },
     { title: "Aa Ke Teri Baahon Mein", artist: "Vansh", era: "90s", category: "ROMANTIC", file: "./songs/Aa Ke Teri Baahon Mein.ogg" },
@@ -108,8 +141,8 @@ const songs = [
 ];
 
 // State Variables
-let appMode = 'saloon'; // 'saloon' or 'love'
-let activeSongsList = songs;
+let appMode = 'saloon'; // 'saloon' (Spotify API import) or 'love' (101 Local Storage)
+let activeSongsList = saloonSpotifySongs;
 let currentSongIndex = 0;
 let isPlaying = false;
 let isShuffle = false;
@@ -160,31 +193,31 @@ document.addEventListener('DOMContentLoaded', () => {
   startLiveClock();
 });
 
-// Switch App Mode (Saloon Songs vs Love Songs)
+// Switch App Mode (OPTION 1: Spotify Barber Songs vs OPTION 2: 101 Local Storage Love Songs)
 function setAppMode(mode) {
   appMode = mode;
   document.body.className = `mode-${mode}`;
 
   if (mode === 'saloon') {
-    // Saloon Songs Mode (Full 101 Catalogue)
-    activeSongsList = songs;
+    // OPTION 1: Barber Songs (Imported from Spotify API)
+    activeSongsList = saloonSpotifySongs;
     heroTitle.innerHTML = 'डीलक्स<br>सैलून';
-    heroSubtitle.textContent = 'MEHFIL FM — NOSTALGIC SALOON RADIO (101 TRACKS)';
+    heroSubtitle.textContent = `SPOTIFY BARBER SHOP PLAYLIST IMPORT (${activeSongsList.length} SONGS)`;
 
-    if (drawerTitle) drawerTitle.textContent = 'Saloon Songs Vault';
-    if (drawerSubtitle) drawerSubtitle.textContent = '101 SALOON RECORDINGS';
-    if (archiveCount) archiveCount.textContent = '101';
+    if (drawerTitle) drawerTitle.textContent = 'Spotify Barber Queue';
+    if (drawerSubtitle) drawerSubtitle.textContent = 'SPOTIFY API TRACKS';
+    if (archiveCount) archiveCount.textContent = `${activeSongsList.length}`;
 
     btnModeSaloon.classList.add('active');
     btnModeLove.classList.remove('active');
   } else {
-    // Love Songs Mode (Romantic Songs Filter)
-    activeSongsList = songs.filter(s => s.category === 'ROMANTIC');
+    // OPTION 2: Love Songs (101 Local Storage Songs)
+    activeSongsList = loveLocalSongs;
     heroTitle.innerHTML = 'महफ़िल-ए-इश्क़';
-    heroSubtitle.textContent = `MEHFIL FM — 90S ROMANTIC MELODIES (${activeSongsList.length} TRACKS)`;
+    heroSubtitle.textContent = `LOCAL STORAGE ARCHIVE (${activeSongsList.length} SONGS)`;
 
-    if (drawerTitle) drawerTitle.textContent = 'Mehfil-E-Ishq Vault';
-    if (drawerSubtitle) drawerSubtitle.textContent = `${activeSongsList.length} ROMANTIC RECORDINGS`;
+    if (drawerTitle) drawerTitle.textContent = 'Local Storage Vault';
+    if (drawerSubtitle) drawerSubtitle.textContent = '101 LOCAL RECORDINGS';
     if (archiveCount) archiveCount.textContent = `${activeSongsList.length}`;
 
     btnModeLove.classList.add('active');

@@ -1,0 +1,1425 @@
+{
+  "props": {
+    "pageProps": {
+      "state": {
+        "data": {
+          "entity": {
+            "type": "playlist",
+            "name": "banger songs that play at indian barber shops",
+            "uri": "spotify:playlist:2AVjI8Z57bqMJVtU3V9X1Q",
+            "id": "2AVjI8Z57bqMJVtU3V9X1Q",
+            "title": "banger songs that play at indian barber shops",
+            "subtitle": "Yash Bhardwaj",
+            "authors": null,
+            "coverArt": {
+              "sources": [
+                {
+                  "height": null,
+                  "width": null,
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c5e90f966ee0925558c5b75a8"
+                }
+              ]
+            },
+            "releaseDate": null,
+            "duration": 0,
+            "isPlayable": true,
+            "playabilityReason": "UNKNOWN",
+            "isExplicit": false,
+            "hasVideo": false,
+            "relatedEntityUri": "spotify:playlist:2AVjI8Z57bqMJVtU3V9X1Q",
+            "trackList": [
+              {
+                "uri": "spotify:track:6swiB2EqcDcBS2lojpZlaA",
+                "uid": "ac3b4c740b8c50df",
+                "title": "Mujhse Mohabbat Ka",
+                "subtitle": "Kumar Sanu,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 311906,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/da4e7219db656efa0c2299a514d60bbbe4f65b41"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:7ucrojjQI5AuW3E1ol11VW",
+                "uid": "e9c909eed37de679",
+                "title": "Tumsa Koi Pyaara",
+                "subtitle": "Kumar Sanu,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 342426,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/16bbb689784179d59cf55a7043d2240bea79704b"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:7rmhuVGX5VFjdZ1EC0BZqk",
+                "uid": "0351cf4091c275e0",
+                "title": "Woh Meri Neend Mera Chain",
+                "subtitle": "Sadhana Sargam",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 298266,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/583052be532a39c9cf58f490e39feb5812ca48cd"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1hhmxIIa43oIMYRG0DLhZW",
+                "uid": "bac4aea9b7b34878",
+                "title": "Saaton Janam Main Tere",
+                "subtitle": "Kumar Sanu,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 339253,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/0b6a50046681c172b2af3bdda5db5e1c1d149bb9"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:42TcwNnorlrNjDruCT6otE",
+                "uid": "e69b4fb8947a4733",
+                "title": "Oye Raju",
+                "subtitle": "Anand Raj Anand",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 355813,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/faba8bde18d533710bec07de7d8960bab3e511e0"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:6yTtUUlsBXN9h9ZxTxGWMS",
+                "uid": "d07f2eb3c4ebada8",
+                "title": "Bahut Pyar Karte Hai - Male Version",
+                "subtitle": "S. P. Balasubrahmanyam",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 185400,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/1818dbd6b39415b9f49f2532ac7735690879f329"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:6hKN1elB0v9bQV0WD93Cdb",
+                "uid": "cca23f5c8298c491",
+                "title": "Jeeta Tha Jiske Liye (From \"Dilwale\")",
+                "subtitle": "Kumar Sanu,\u00a0Alka Yagnik,\u00a0Ajay Devgan",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 458493,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/4944565ac97019768d841fdb2154e0c28ce0f5bc"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:4ekWihaJCXYYKf6AdRDVvb",
+                "uid": "c5f086a16f52f270",
+                "title": "Teri Umeed Tera Intezar (From \"Deewana\")",
+                "subtitle": "Sadhana Sargam,\u00a0Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 378940,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/8f405469d7e28cfe053a56d476b9341c47830e36"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:34y1d4i8uru6aQSWd8ewPT",
+                "uid": "466f682b79f4f14b",
+                "title": "Tumse Milne Ko Dil",
+                "subtitle": "Alka Yagnik,\u00a0Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 300400,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/318ff27ffbe64542f1605c3a977692a4243893b9"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:5KikkBMpRSMB4PnroLf5hZ",
+                "uid": "89e73e774cbda70a",
+                "title": "Ek Sanam Chahiye Aashiqui Ke Liye",
+                "subtitle": "Kumar Sanu,\u00a0Super Cassettes Industries Private Limited,\u00a0Sameer Anjaan",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 372693,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/7d5e083f5a0538c1fcb5fb15c144d3c5d01d4d0d"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:72gmBpkgUDAWMp0od2a6pW",
+                "uid": "3716902bc363e2d8",
+                "title": "Tu Pyar Hai Kisi Aur Ka",
+                "subtitle": "Anuradha Paudwal",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 412605,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/ff9a1a6b6485d317eaa2a4445bf519305b6c8d37"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:00wU6YKnzNlavZ1TPpLUlp",
+                "uid": "03fc1b4b211f27b1",
+                "title": "Sochenge Tumhe Pyar (From \"Deewana\")",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 362888,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/53d81dd1bdb3160879a29a5161f7a460caa6d34d"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1ZcluxOLEoQEZHp8qsHVe2",
+                "uid": "1128d1ed3c3ee22c",
+                "title": "Raah Mein Unse Mulaqat",
+                "subtitle": "Kumar Sanu,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 519226,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/bb59e50fa6bb3268c08d249d24a7fc914d31c6f1"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:28rMrOeusmuvjDuf6j3Kwg",
+                "uid": "8d85dbdebd30126f",
+                "title": "Main Duniya Bhula Doonga",
+                "subtitle": "Anuradha Paudwal,\u00a0Kumar Sanu,\u00a0Super Cassettes Industries Private Limited,\u00a0Sameer Anjaan",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 318293,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/f71c65921d56acffb8130b8dceaa35455c223c1f"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3GCvRY92yUzSRQ3V9mVElL",
+                "uid": "0424f6177474e0e8",
+                "title": "Tumhein Apna Banane Ki Kasam Khai Hai",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 339866,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/eb67accab6dedecd8d08cca51be24a340b9a5887"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:368WunUYuPt29BAesTxA4V",
+                "uid": "536a2ccc9de03fce",
+                "title": "Tum Dil Ki Dhadkan Mein",
+                "subtitle": "Abhijeet,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 351425,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/40dab3de9df40908356ecff92fcd5ed9ef71d4d7"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1VDOo2IV62R7Po62XJZlST",
+                "uid": "d959887c0e3aefa5",
+                "title": "Dulhe Ka Sehra - Male Version",
+                "subtitle": "Nusrat Fateh Ali Khan",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 512417,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/dc6337dfde6100a53581a9703cbd654dd1da3754"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1e5W7XCQSyGlq3Lg0l4HBV",
+                "uid": "4fdb1477483d690b",
+                "title": "Maine Pyar Tumhi Se Kiya Hai",
+                "subtitle": "Anuradha Paudwal,\u00a0Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 422266,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/b8275dcb61cfb4e7376935a3e7cfadfdf81572a9"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:5maLNkwnwUGzB7I6dNANV5",
+                "uid": "5e061747b2efdcef",
+                "title": "Ab Tere Bin",
+                "subtitle": "Kumar Sanu,\u00a0Super Cassettes Industries Private Limited,\u00a0Sameer Anjaan",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 346840,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/0bddc255d6a6e5c44e00cd2c7eb8d0fceace4970"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:7eMALavv9CgU8R7ETPtDNK",
+                "uid": "4098c7498110767c",
+                "title": "Kitna Haseen Chehra (From \"Dilwale\")",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 354455,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/45bd346ff2eab883b7a1ff4f0af806391a87bcf0"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:4JlTjwiHMzJXXVcHHqHT0b",
+                "uid": "948b0d306e8cf804",
+                "title": "Tujhko Na Dekhun (From \"Jaanwar\")",
+                "subtitle": "Sunidhi Chauhan,\u00a0Udit Narayan",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 293853,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/c22ad99eea6c490ba0af16c666db9484097bbbe6"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1Iq3EB6BKHyvOEph7dAFTd",
+                "uid": "497026d5b8d16435",
+                "title": "Tum Se Achcha Kaun Hai Chand Tare Phool",
+                "subtitle": "Tauseef Akhtar",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 304493,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/65c61cb8b7716e13f0473e94938f7cae072ad78e"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:5HJcl5wuEptCtI5CSo8eFJ",
+                "uid": "d5a1e6ee3db60501",
+                "title": "Tum Dil Ki Dhadkan Mein (From \"Dhadkan\")",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 314226,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/afccd4527a1e2effc5fb2d7acb95f0cf0e09311f"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1NmoxbWmXXKSfJBdPPy0u2",
+                "uid": "e299b61c2febdc85",
+                "title": "",
+                "subtitle": "",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 0,
+                "isPlayable": false,
+                "playabilityReason": "COUNTRY_RESTRICTED",
+                "audioPreview": null,
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:7tNg3NMlZLpuhGVt0SUxT3",
+                "uid": "ac7aea3c46197cb6",
+                "title": "Sab Kuchh Bhula Diya (Female)",
+                "subtitle": "Sonu Nigam,\u00a0Sapna Awasthi,\u00a0Bali Brahmbhatt,\u00a0Kartik Awasthi",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 475733,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/d6180c0719c685fa00152312615da101202289c2"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3dDEqZAgmnMGeTh8sRueI4",
+                "uid": "5d7968cd18065bc0",
+                "title": "Dheere Dheere Pyar Ko",
+                "subtitle": "Alka Yagnik,\u00a0Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 328640,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/6468cf1e3a3d061eb06c10e0e646eb37c5261cc2"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:0zoPzA7onXon2eO6XXMA5e",
+                "uid": "f5cfeb1327feef77",
+                "title": "",
+                "subtitle": "",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 0,
+                "isPlayable": false,
+                "playabilityReason": "COUNTRY_RESTRICTED",
+                "audioPreview": null,
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:0rvNTSDuANSUSsKjeMvC2p",
+                "uid": "ab9855e18648d082",
+                "title": "Jeeye to Jeeye Kaise",
+                "subtitle": "Pankaj Udhas",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 209960,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/0bdfd3974ce58fb2ef1a84bda85f21017182e9dc"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3Idq798v0TCUOKZ6unPyKn",
+                "uid": "388e60a8618555a1",
+                "title": "Hum Laakh Chupaye",
+                "subtitle": "Asha Bhosle,\u00a0Kumar Sanu,\u00a0Nadeem Shravan,\u00a0Syed Rahi",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 415066,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/d2aba363770590ceefc8019cd8371fe51828f13a"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1N2Ne905d96lZv7navjo8C",
+                "uid": "9bcf2d29911f02f7",
+                "title": "Nahin Yeh Ho Nahin Sakta",
+                "subtitle": "Kumar Sanu,\u00a0Sadhana Sargam",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 364106,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/967b60f7711c85d1d07149d3b1bc307a05237816"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:4NAM8AbGxIkzUWlTojNBzI",
+                "uid": "0af4c34a2a48232c",
+                "title": "Kahin Mujhe Pyar Hua Toh Nahin",
+                "subtitle": "Alka Yagnik,\u00a0Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 423986,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/0b2f97c224d5d56a813bc05f53410f7764f832b8"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3Q8WCb10T1EWrjQyb3DCTr",
+                "uid": "5e90bdadca6db3c4",
+                "title": "Tera Naam Liya",
+                "subtitle": "Manhar Udhas,\u00a0Anuradha Paudwal,\u00a0Laxmikant\u2013Pyarelal",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 354725,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/9bfed13dbacf11c3494ccdd2b3fbe2872011a065"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1o8MqUvBiDIXxof2TuuPSX",
+                "uid": "a9c13575f4345534",
+                "title": "Kitna Pyaara Tujhe Rabne Banaya",
+                "subtitle": "Alka Yagnik,\u00a0Udit Narayan",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 382000,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/62d99bcaaa87afb85db2e05cde8db7bd93e008d8"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:0MXIjsWCk0fo7qpYtR4CkS",
+                "uid": "7e364dfd73f9be8a",
+                "title": "Hum Pyaar Hai Tumhare",
+                "subtitle": "Kumar Sanu,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 426000,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/6b4bcf05a7a30cb3d63fba93a7021a031b9ef936"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:53SyjeUrYqpGjKbrSfXbuI",
+                "uid": "119dfe45917a545d",
+                "title": "Ek Ladki Ko Dekha",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 275295,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/80b6464870a08753161e4c1e16a6bf8eb7663291"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:4n5vaqluWQjCrKr4JLZIRh",
+                "uid": "bdbc13cafb1b810a",
+                "title": "Tere Dar Par Sanam - Male Version",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 368866,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/6bb5f359f6bf7fc80c1795176976b4c8a84d6c97"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2k2wbpYLNBmaI6o06KWOgN",
+                "uid": "57807f325c73e1c2",
+                "title": "Chura Ke Dil Mera - From \"Main Khiladi Tu Anari\"",
+                "subtitle": "Kumar Sanu,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 468720,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/cafd54d763f77e26b67e824f40ad30fe4eb9be0c"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:5BqBeEwb9sqUtRLKyzgQQe",
+                "uid": "92f9c6c5eb06a329",
+                "title": "Tu Meri Zindagi Hai",
+                "subtitle": "Anuradha Paudwal,\u00a0Kumar Sanu,\u00a0Super Cassettes Industries Private Limited,\u00a0Sameer Anjaan",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 285280,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/06789fc2981aed3ca28c3c960a9b0a1353269eb8"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:5nEGryMNEvkuYlZO9Y3Vml",
+                "uid": "6e68a0d8ba08c03a",
+                "title": "Chori Chori Dil Tera",
+                "subtitle": "Kumar Sanu,\u00a0Sujata Goswamy",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 399450,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/39743c9dfd217423e31555c14382f2d90dc967e1"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2SKjUcOOeyAwKyH5a5nNYW",
+                "uid": "212f658046bfec14",
+                "title": "Ek Aaisi Ladki (From \"Dilwale\")",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 265986,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/b4a9b2a6d000ce8422118286ce0f7dd5ea3f9510"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2jCUR989wnDL8DOqWWeElc",
+                "uid": "64d0e901043e3f13",
+                "title": "Achchha Sila Diya Toone Mere Pyar Ka",
+                "subtitle": "Sonu Nigam",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 308257,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/82966e2f52a0f8623bc8b503480e6f17bc7bbfce"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:23p8pI3tHCFKyOw8V2e8IC",
+                "uid": "40ae8e55e3a0e070",
+                "title": "Tere Dard Se Dil - Jhankar Beats",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 281745,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/a06d9161598d914ef6bb8668e7017b7b9ec61daf"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:4EfiODx46Zq7h5ORp2LVy9",
+                "uid": "b4498bb255415c13",
+                "title": "Na Kajare Ki Dhar (With Jhankar Beats)",
+                "subtitle": "Pankaj Udhas,\u00a0Sadhana Sargam",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 322626,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/a9eb9b78c26c242030f3ec9aadc30c30190e3898"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:0qPXI4a94jSGFBu4VKxwWQ",
+                "uid": "526b9d3c1176670e",
+                "title": "Hum Yaar Hai Tumhare",
+                "subtitle": "Udit Narayan,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 434840,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/5e9ebc563fa658acf8635dd5b8cc22b4f3fa2b3f"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2WN7HANjjsjN0opZvFaLww",
+                "uid": "744a7e450017989f",
+                "title": "Aitbaar Nahi Karna",
+                "subtitle": "Abhijeet,\u00a0Sadhana Sargam",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 277773,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/d6127625347ac06f75672bdeeb161e6e3c94ca76"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1Dww8WMEA5C9jp01ILGzzW",
+                "uid": "afc87901e25d1b68",
+                "title": "Dekha Hai Pehli Baar (From \"Saajan\")",
+                "subtitle": "Alka Yagnik,\u00a0S. P. Balasubrahmanyam",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 365504,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/052d00bbfffa3e6568198ca6b66d5678dac4eb5c"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2JQgRmbKYnyo3z1Cn3BaQS",
+                "uid": "31873d9e1f6273fb",
+                "title": "Ankh Hai Bhari Bhari (Male Version) - From \"Tum Se Achcha Kaun Hai\"",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 437160,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/ba7e4ed214ecad5ca640abd2dcbd9fe63d62c0b9"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2E7D3VtgdcEcLA5AOqE0Fa",
+                "uid": "69503be71f4e284d",
+                "title": "Kya Karte They Sajna",
+                "subtitle": "Udit Narayan,\u00a0Anuradha Paudwal",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 421280,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/2165243959c19c413767bfacc7e87f24c69bc53c"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:7vO5tXQx4pCtHiIMjgvCeU",
+                "uid": "b4a6711294a9ce50",
+                "title": "Dekhne Walon Ne - From ''Chori Chori Chupke Chupke''",
+                "subtitle": "Udit Narayan,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 373133,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/8b11a54b7fcce5b60134c76da39c0f9b8b37ad7f"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3v67ZxfJZOHNNR37ZbTPL3",
+                "uid": "ec3db1b3824c5076",
+                "title": "Tum To Thehre Pardesi",
+                "subtitle": "Altaf Raja",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 874299,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/c9f1675b9bc6f278c5cbbd8586386f3a77a7add6"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:4V7Q4YDVwPbC2hnO72MxQ7",
+                "uid": "007e45422ad7a6fb",
+                "title": "Chehra Kya Dekhte Ho",
+                "subtitle": "Asha Bhosle,\u00a0Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 358100,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/f01702f556bea4264b07e4e184d5836c90d8a360"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:4EfiODx46Zq7h5ORp2LVy9",
+                "uid": "d86473d031609453",
+                "title": "Na Kajare Ki Dhar (With Jhankar Beats)",
+                "subtitle": "Pankaj Udhas,\u00a0Sadhana Sargam",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 322626,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/a9eb9b78c26c242030f3ec9aadc30c30190e3898"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2lcu8WfAs8qw8crZf4ybRi",
+                "uid": "07d268ce820eb758",
+                "title": "Too Shayar Hai Main Teri Shayari (From \"Saajan\")",
+                "subtitle": "Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 389906,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/22779f809f1a7651e3a7a91ecdab732f2c21c5ff"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:7Go64qZoDGhAFAVAnI9GcS",
+                "uid": "e0f6a9bd2d1677cc",
+                "title": "Paas Woh Aane Lage (From \"Main Khiladi Tu Anari\")",
+                "subtitle": "Kumar Sanu,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 372514,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/79c78d3a94ac3a47d7170927a3ca9753860a9ec3"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:7fqFYPSGWGsrIocQadYubn",
+                "uid": "02f900934796fff7",
+                "title": "Chhupana Bhi Nahin Aata Vinod Rathod (From \"Baazigar\")",
+                "subtitle": "Vinod Rathod",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 419040,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/b321f5b2e1a56177eaa8e88e51eab5c73888983e"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:6Kb2jbGMqs3zL7cgv9dket",
+                "uid": "84343118fc212fa3",
+                "title": "Is Tarah Aashiqui Ka - Kumar Sanu Version",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 443000,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/c6f5d1726fada0e5b03e59bb5a3c17dab4b8c26b"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3SdBm0UuDoEdx1fAQdPs3l",
+                "uid": "774eb90bc0f5116b",
+                "title": "Tumse Milna",
+                "subtitle": "Udit Narayan,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 281426,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/730cc632a6adc297b578e9498077960b7fc14946"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:7EKQCIwq330b5cDGib8WuP",
+                "uid": "2fcd6e1a485ce5bb",
+                "title": "Kyo Kisi Ko",
+                "subtitle": "Udit Narayan",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 337173,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/6e0e918b4acd52bc22c835f1ea7c38d42c740c56"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:16QR0F7y2OOQQy9gNF6tA5",
+                "uid": "133c8962041c8002",
+                "title": "Dil Ka Aalam (From \"Aashiqui\")",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 300200,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/3035dfb06e5e1303e0fe862d74dec997f36b4f63"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:24yLjsc1fobEusKNfUoEPC",
+                "uid": "071d2df9d2e309cb",
+                "title": "Pehli Pehli Baar Mohabbat Ki Hai (From \"Sirf Tum\")",
+                "subtitle": "Kumar Sanu,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 459426,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/1c6fe28501a4e4830d25421c0ffd19c99c4f04d2"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:0VT19Qy4aLEDAw8gxpng7E",
+                "uid": "6cae385a5a71a682",
+                "title": "Sanam Bewafa",
+                "subtitle": "Lata Mangeshkar,\u00a0Vipin Sachdeva",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 370640,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/d2b8674683aaced0cfa8c2c0342c679ac2baeeac"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1cJ2HlZEwhoKpchm79mLEd",
+                "uid": "dc806c46610bc5dc",
+                "title": "Kaash Kahin Aisa Hota (From \"Mohra\")",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 305146,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/36535e076761f5fe91e7fb32c9766fe9cab3bfa4"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2lp9ztyBvJLH2khBUpqZ2X",
+                "uid": "f0ab39d953c1c3bf",
+                "title": "Aawara Hawa Ka Jhonka Hoon",
+                "subtitle": "Altaf Raja",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 777480,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/3c37715d45b4337bab3a3c7bcb296c81fc37ab71"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:4fudUzDHbqdSA4ZUSuvOgc",
+                "uid": "117659929ee06dd4",
+                "title": "Love Tujhe Love Main Karta",
+                "subtitle": "Kumar Sanu,\u00a0Alka Yagnik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 346133,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/571017f415ebb49b7d29b5ee6e0e2833231cfc6e"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1KgC95AnD3aVBNBxhB1Zw1",
+                "uid": "12fc306dac8d7245",
+                "title": "Tere Dard Se Dil (From \"Deewana\")",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 291089,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/2d502c9730428393f11bf4c15cd8b7b25d6bef3f"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:4lcIEnEAPlcwJQI4XjYkQW",
+                "uid": "33a17672721fa00e",
+                "title": "Dil Cheer Ke Dekh",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 313000,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/12ba1af9a1aa4f3426c478c769dc24f75784fd51"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:751gr2lSWq91sY7q14VrBe",
+                "uid": "27f18ca1488dee6e",
+                "title": "Premi Aashiq Aawara",
+                "subtitle": "Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 296893,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/064bda54d094ac080d5fe3b16cbd953716231f04"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3ECIJPi0bOX6dxVhotLGpD",
+                "uid": "38a2d3f09b337940",
+                "title": "Dil Diwana (From \"Daag The Fire\")",
+                "subtitle": "Anuradha Paudwal,\u00a0Kumar Sanu",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 378546,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/fb34d33a02256f0fc57536be0fb4f8e8def35b48"
+                },
+                "entityType": "track"
+              }
+            ],
+            "visualIdentity": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 93,
+                "green": 92,
+                "red": 0
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 57,
+                "green": 56,
+                "red": 0
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 222,
+                "green": 222,
+                "red": 114
+              },
+              "image": [
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c00006c115e90f966ee0925558c5b75a8",
+                  "maxHeight": 64,
+                  "maxWidth": 64
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb5e90f966ee0925558c5b75a8",
+                  "maxHeight": 640,
+                  "maxWidth": 640
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845e90f966ee0925558c5b75a8",
+                  "maxHeight": 300,
+                  "maxWidth": 300
+                }
+              ]
+            },
+            "attributes": [],
+            "format": ""
+          },
+          "embeded_entity_uri": "spotify:playlist:2AVjI8Z57bqMJVtU3V9X1Q",
+          "defaultAudioFileObject": {
+            "passthrough": "NONE"
+          }
+        },
+        "settings": {
+          "rtl": false,
+          "session": {
+            "accessToken": "BQCp81bsnQi_BlFLZlS6kfqZLQ3jXSxITlJzvP_BGjcnbyW0z7KP5c5pBAtfAGElscW-_XhdGfyNCDnFwehfAL6AgMcZRmHVkx7ECFJp5_Xkb5Y7TY7feLSURQr-IIAJfY7iUqLPzGws",
+            "accessTokenExpirationTimestampMs": 1786446480363,
+            "isAnonymous": true
+          },
+          "entityContext": "playlist",
+          "clientId": "ab9ad0d96a624805a7d51e8868df1f97",
+          "isMobile": false,
+          "isSafari": false,
+          "isIOS": false,
+          "isTablet": false,
+          "isDarkMode": false,
+          "isAudiobookLaunchedInGeoMarket": false
+        },
+        "machineState": {
+          "initialized": false,
+          "showOverflowMenu": false,
+          "playbackMode": "unknown",
+          "currentPreviewTrackIndex": 0,
+          "platformSupportsEncryptedContent": false
+        }
+      },
+      "config": {
+        "correlationId": "4592b9d32359678cb57b80c5c9a3d37d",
+        "strings": {
+          "en": {
+            "translation": {}
+          }
+        },
+        "locale": "en",
+        "clientId": "ab9ad0d96a624805a7d51e8868df1f97",
+        "restrictionId": ""
+      },
+      "_sentryTraceData": "c2f3fe4e0c67209f63200810efc27901-f6308df7399aa3d3-0",
+      "_sentryBaggage": "sentry-environment=production,sentry-release=3265ae02f5714964b1d0e54755fb4b042a9694bb,sentry-public_key=4cc707ab12ea4779b417479c0550a5cb,sentry-trace_id=c2f3fe4e0c67209f63200810efc27901,sentry-org_id=22381,sentry-sampled=false,sentry-sample_rand=0.8080791543406026,sentry-sample_rate=0"
+    },
+    "__N_SSP": true
+  },
+  "page": "/playlist/[id]",
+  "query": {
+    "id": "2AVjI8Z57bqMJVtU3V9X1Q"
+  },
+  "buildId": "4f98f0b5-9893-4072-b0cc-26102b5bd9a3",
+  "assetPrefix": "https://embed-cdn.spotifycdn.com",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}
